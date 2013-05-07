@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34495E" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Results!"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#1ABC9C"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/number_of_questions_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="24dp"
+            android:text="Total Number of Questions:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#1ABC9C"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/number_of_questions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#1ABC9C" />
+
+        <TextView
+            android:id="@+id/questions_attempted_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="24dp"
+            android:text="Questions Attempted:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#1ABC9C"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/questions_attempted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#1ABC9C" />
+
+        <TextView
+            android:id="@+id/correct_answers_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="24dp"
+            android:text="Correct Answers:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#1ABC9C"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/correct_answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#1ABC9C" />
+
+        <TextView
+            android:id="@+id/percent_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="24dp"
+            android:text="Percent:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#1ABC9C"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#1ABC9C" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:onClick="quitApplication"
+        android:text="Quit"
+        android:textColor="#ECF0F1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
