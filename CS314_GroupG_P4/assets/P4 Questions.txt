@@ -16,6 +16,12 @@ Speed
 Distance
 Intensity
 3
+4. Which of the following best represents one particular stage in a life cycle?
+a seed sproutin
+a fish swimming
+a leaf growing
+a dog eating
+1
 5. Which of the following instruments is used to measure pressure of gases?
 Barometer
 Manometer
@@ -64,6 +70,12 @@ Seismograph
 - 273
 - 100
 1
+13. Which of the following is most likely to make a rock crack and crumble?
+water freezing in a crack in the rock
+dew evaporating on the rock
+leaves decaying on the rock
+snow melting in a crack in the rock
+1
 14. Who among the following described protoplasm as the physical basis of life?
 T. H. Huxley
 Leeuwenhoek
@@ -94,6 +106,12 @@ Pascal
 Sholes
 Waterman
 3
+19. Baby chicks peck their way out of their shells when they hatch. This activity is an example of which of the following types of behavior?
+instinctive
+learned
+planned
+social
+1
 20. Who discovered circulation of blood in human body?
 Edward Jenner
 Joseph Lister
@@ -250,6 +268,18 @@ Planck
 Dalton
 Rutherford
 1
+46. Which of the following statements describes one way that solids are different from liquids?
+Solids have a definite shape and liquids do not.
+Solids have weight and liquids do not.
+Solids take up space and liquids do not.
+Solids have a definite volume and liquids do not.
+1
+47. Why are green plans important to animals?
+They consume food and give off carbon dioxide.
+They produce food and give off carbon dioxide.
+They produce food and give off oxygen.
+They consume food and give off oxygen.
+3
 48. Robert Koch worked on?
 Tuberculosis
 Cholera
