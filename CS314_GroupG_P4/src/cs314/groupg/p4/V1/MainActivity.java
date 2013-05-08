@@ -28,17 +28,6 @@ public class MainActivity extends Activity {
 	/** Called when the user clicks the start quiz button */
 	public void startQuiz(View view) {
 		Intent intent = new Intent(this, displayQuiz.class);
-		AssetManager am = this.getAssets();
-		try {
-			InputStream FileStream = am.open("P4 Questions.txt");
-			Quiz quiz = new Quiz(FileStream);
-			intent.putExtra("parcel", quiz);
-			finish();
-			startActivity(intent);
-		} catch (IOException e) {
-			System.exit(0);
-		}
-
-	}
-	
+		startActivity(intent);
+	}	
 }

@@ -7,12 +7,90 @@
     tools:context=".displayQuiz" >
 
     <LinearLayout
+        android:id="@+id/navigationLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/back_button"
+            android:textColor="#ECF0F1" 
+            android:onClick="backClick" />
+
+        <Button
+            android:id="@+id/answer_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="3"
+            android:background="@drawable/round_button"
+            android:text="@string/Answer"
+            android:textColor="#ECF0F1"
+            android:textStyle="bold" 
+            android:onClick="answerClick" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/forward_button"
+            android:textColor="#ECF0F1" 
+            android:onClick="skipClick" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:text="@string/Title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#1ABC9C"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/Finish_Button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/finish_button"
+        android:clickable="true"
+        android:onClick="endQuizClick"
+        android:contentDescription="@string/description"
+        android:paddingRight="5dp" />
+
+    <TextView
+        android:id="@+id/Finish_Quiz_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Finish_Button"
+        android:layout_marginRight="2dp"
+        android:text="@string/Finish"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ECF0F1"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
         android:id="@+id/question_answer_layout"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
         android:layout_below="@+id/Finish_Quiz_Text"
-        android:layout_centerHorizontal="true"
         android:orientation="vertical" >
 
         <TextView
@@ -29,13 +107,13 @@
             android:paddingTop="7dp"
             android:text="@string/question"
             android:textColor="#ECF0F1"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <RadioGroup
             android:id="@+id/answergroup"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="338dp" >
 
             <RadioButton
                 android:id="@+id/answer1"
@@ -62,84 +140,5 @@
                 android:text="@string/answer" />
         </RadioGroup>
     </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/navigationLayout"
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:orientation="horizontal" >
-
-        <Button
-            android:id="@+id/back_button"
-            android:layout_width="50dp"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="1dp"
-            android:layout_marginRight="1dp"
-            android:background="@drawable/back_button"
-            android:textColor="#ECF0F1" 
-            android:onClick="previousQuestion" />
-
-        <Button
-            android:id="@+id/answer_button"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
-            android:layout_weight="3"
-            android:background="@drawable/round_button"
-            android:text="@string/Answer"
-            android:textColor="#ECF0F1"
-            android:textStyle="bold" 
-            android:onClick="answerQuestion" />
-
-        <Button
-            android:id="@+id/next_button"
-            android:layout_width="50dp"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="1dp"
-            android:layout_marginRight="1dp"
-            android:background="@drawable/forward_button"
-            android:textColor="#ECF0F1" 
-            android:onClick="nextQuestion" />
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/Title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginRight="15dp"
-        android:text="@string/Title"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#1ABC9C"
-        android:textSize="35sp"
-        android:textStyle="bold" />
-
-    <ImageButton
-        android:id="@+id/Finish_Button"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginRight="5dp"
-        android:background="@drawable/finish_button"
-        android:clickable="true"
-        android:onClick="finishQuiz"
-        android:contentDescription="@string/description"
-        android:paddingRight="5dp" />
-
-    <TextView
-        android:id="@+id/Finish_Quiz_Text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/Finish_Button"
-        android:layout_marginRight="2dp"
-        android:text="@string/Finish"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="#ECF0F1"
-        android:textSize="12sp"
-        android:textStyle="bold" />
 
 </RelativeLayout>

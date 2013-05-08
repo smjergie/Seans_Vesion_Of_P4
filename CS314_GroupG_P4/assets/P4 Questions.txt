@@ -1,300 +1,251 @@
-1. Which instrument is used to measure pressure?
-Saccharimeter
-Ammeter
-Manometer
-Lactometer
-3
-2. What does Angstrom measure?
-Quantity of liquid
-Length of light waves
-Length of cables
-Speed of ships
-4
-3. Light year is related to?
-Energy
-Speed
-Distance
-Intensity
-3
-4. Which of the following best represents one particular stage in a life cycle?
-a seed sproutin
-a fish swimming
-a leaf growing
-a dog eating
-1
-5. Which of the following instruments is used to measure pressure of gases?
-Barometer
-Manometer
-Ammeter
-None of these
-2
-6. Joule is the unit of?
-Temperature pressure
-Energy
-Heat
-Force
-3
-7. How many Dynes are there in one gram weight?
-900
-375
-981
-250
-3
-8. How many Ergs are these in 1 Joule?
-102
-104
-106
-107
-4
-9. The unit of current is?
-Ohm
-Watt
-Ampere
-None of these
-3
-10. The unit of energy in MKS system is?
-Volt
-Erg
-Ohm
-Joule
-4
-11. The intensity of an earthquake is measured with a?
-Barometer
-Hydrometer
-Polygraph
-Seismograph
-4
-12. Centigrade & Fahrenheit scales give same reading at?
-- 40
-- 32
-- 273
-- 100
-1
-13. Which of the following is most likely to make a rock crack and crumble?
-water freezing in a crack in the rock
-dew evaporating on the rock
-leaves decaying on the rock
-snow melting in a crack in the rock
-1
-14. Who among the following described protoplasm as the physical basis of life?
-T. H. Huxley
-Leeuwenhoek
-Rudolf Virchow
-J. C. Bose
-1
-15. The scientist who first discovered that the earth revolves round the sun was?
-Newton
-Dalton
-Copernicus
-Einstein
-3
-16. Alexander Fleming discovered?
-Penicillin
-X-ray
-Streptomycin
-Telephone
-1
-17. Who among following invented the steam engine?
-Marconi
-James Watt
-Thomas Savery
-Wright Brothers
-2
-18. Who invented typewriter?
-Shockley
-Pascal
-Sholes
-Waterman
-3
-19. Baby chicks peck their way out of their shells when they hatch. This activity is an example of which of the following types of behavior?
-instinctive
-learned
-planned
-social
-1
-20. Who discovered circulation of blood in human body?
-Edward Jenner
-Joseph Lister
-William Harvey
-Jonon Esals
-3
-21. The first attempt in printing was made in England by?
-James Arkwright
-James Watt
-William Caxton
-Isaac Newton
-3
-22. Who was the surgeon who pioneered antiseptic surgery in 1865?
-Edward Jenner
-Joseph Lister
-Henry William
-John Sleeman
-4
-23. The credit of inventing the television goes to?
-Faraday
-Baird
-Edison
-Marconi
-2
-24. The credit of developing the polio vaccine goes to?
-Jonas Salk
-Alb E. Sabin
-Selman Waksman
-None of these
-1
-25. Mark the wrong combination
-James Watt: Steam Engine
-A.G. Bell: Telephone
-J. L. Baird: Television
-J. Perkins: Penicillin
-4
-26. Choose the correct combination?
-Typewriter: Remington
-Dynamite: Dunlop
-Evolution: Darwin
-Aeroplane: Harway
-3
-27. Who invented the ball point pen?
-Waterman
-Oscar
-Wilson
-Lazlo Biro
-4
-28. Blaze Pascal is associated with?
-Calculating machine
-Computer
-Cinema
-None of these
-1
-29. Wright Brothers are regarded inventors of the?
-Balloon
-Bicycle
-Aeroplane
-None of these
-3
-30. Which of the following pairs is incorrect?
-Roentgen: X-ray
-Newton: Law of gravitation
-Faraday: Diffusion of gases
-Pasteur: Bacteriology
-3
-31. Philology is the?
-Study of bones
-Study of muscles
-Study of architecture
-Study of languages
-4
-32. Anatomy is the branch of science which deals with?
-Structure of animals and plants
-Functioning of body organs
-Animal behavior
-Cells and tissues
-1
-33. Study of earthquakes is known as?
-Ecology
-Seismology
-Numismatics
-None of these
-2
-34. Ecology deals with?
-Birds
-Cell formation
-Relation between Organisms and their environment
-Tissues
-3
-35. Meteorology is the science of?
-Weather
-Meteors
-Metals
-Earthquakes
-1
-36. Oncology is the study of?
-Birds
-Cancer
-Mammals
-Soil
-2
-37. Study of life in outer space is known as?
-Endobiology
-Exobiology
-Enterobiology
-Neobiology
-2
-38. Numismatics is the study of?
-Coins
-Numbers
-Stamps
-Space
-1
-39. Eugenics is the study of?
-Altering humans beings by changing their genetic components
-People of European origin
-Different races of mankind
-Genetics of plants
-1
-40. Ornithology is the?
-Study of bones
-Study of birds
-Study of smells
-None of these
-2
-41. Who invented the Doctor’s thermometer?
-Fahrenheit
-Edison
-Galileo
-None of these
-1
-42. The velocity of light was first measured by?
-Einstein
-Newton
-Romer
-Galileo
-3
-43. Who proposed the chemical evolution of life?
-Darwin
-Lammarck
-Oparin
-Haechel
-3
-44. The telephone was invented by?
-John Logie Baird
-Alexander Graham Bell
-Thomas Elva Edison
-James Watt
-2
-45. Who among the following evolved the concept of relationship between mass and energy?
-Einstein
-Planck
-Dalton
-Rutherford
-1
-46. Which of the following statements describes one way that solids are different from liquids?
-Solids have a definite shape and liquids do not.
-Solids have weight and liquids do not.
-Solids take up space and liquids do not.
-Solids have a definite volume and liquids do not.
-1
-47. Why are green plans important to animals?
-They consume food and give off carbon dioxide.
-They produce food and give off carbon dioxide.
-They produce food and give off oxygen.
-They consume food and give off oxygen.
-3
-48. Robert Koch worked on?
-Tuberculosis
-Cholera
-Malaria
-Diabetes
-1
-49. Who discovered Uranus?
-Herschel
-Ganleo
-Copernicus
-None of these
-1
-50. Who among the following is associated with the invention of computers?
-Edison
-Babbage
-Mac Millen
-Rangabhashyam
-2
+Q. Which instrument is used to measure pressure?
+C. Manometer
+A. Saccharimeter
+A. Ammeter
+A. Lactometer
+Q. What does Angstrom measure?
+C. Speed of ships
+A. Quantity of liquid
+A. Length of light waves
+A. Length of cables
+Q Light year is related to?
+C. Distance
+A. Energy
+A. Speed
+A. Intensity
+Q. Which of the following best represents one particular stage in a life cycle?
+C. a seed sprouting
+A. a fish swimming
+A. a leaf growing
+A. a dog eating
+Q. Which of the following instruments is used to measure pressure of gases?
+C. Manometer
+A. Barometer
+A. Ammeter
+A. None of these
+Q. Joule is the unit of?
+C. Heat
+A. Temperature pressure
+A. Energy
+A. Force
+Q. How many Dynes are there in one gram weight?
+C. 981
+A. 900
+A. 375
+A. 250
+Q. How many Ergs are these in 1 Joule?
+C. 107
+A. 102
+A. 104
+A. 106
+Q. The unit of current is?
+C. Ampere
+A. Ohm
+A. Watt
+A. None of these
+Q. The unit of energy in MKS system is?
+C. Joule
+A. Volt
+A. Erg
+A. Ohm
+Q. The intensity of an earthquake is measured with a?
+C. Seismograph
+A. Barometer
+A. Hydrometer
+A. Polygraph
+Q. Centigrade & Fahrenheit scales give same reading at?
+C. - 40
+A. - 32
+A. - 273
+A. - 100
+Q. Which of the following is most likely to make a rock crack and crumble?
+C. water freezing in a crack in the rock
+A. dew evaporating on the rock
+A. leaves decaying on the rock
+A. snow melting in a crack in the rock
+Q. Who among the following described protoplasm as the physical basis of life?
+C. T. H. Huxley
+A. Leeuwenhoek
+A. Rudolf Virchow
+A. J. C. Bose
+Q. The scientist who first discovered that the earth revolves round the sun was?
+C. Copernicus
+A. Newton
+A. Dalton
+A. Einstein
+Q. Alexander Fleming discovered?
+C. Penicillin
+A. X-ray
+A. Streptomycin
+A. Telephone
+Q. Who among following invented the steam engine?
+C. James Watt
+A. Marconi
+A. Thomas Savery
+A. Wright Brothers
+Q. Who invented typewriter?
+C. Sholes
+A. Shockley
+A. Pascal
+A. Waterman
+Q. Baby chicks peck their way out of their shells when they hatch. This activity is an example of which of the following types of behavior?
+C. instinctive
+A. learned
+A. planned
+A. social
+Q. Who discovered circulation of blood in human body?
+C. William Harvey
+A. Edward Jenner
+A. Joseph Lister
+A. Jonon Esals
+Q. The first attempt in printing was made in England by?
+C. William Caxton
+A. James Arkwright
+A. James Watt
+A. Isaac Newton
+Q. Who was the surgeon who pioneered antiseptic surgery in 1865?
+C. John Sleeman
+A. Edward Jenner
+A. Joseph Lister
+A. Henry William
+Q. The credit of inventing the television goes to?
+C. Baird
+A. Faraday
+A. Edison
+A. Marconi
+Q. The credit of developing the polio vaccine goes to?
+C. Jonas Salk
+A. Alb E. Sabin
+A. Selman Waksman
+A. None of these
+Q. Mark the wrong combination
+C. J. Perkins: Penicillin
+A. James Watt: Steam Engine
+A. A.G. Bell: Telephone
+A. J. L. Baird: Television
+Q. Choose the correct combination?
+C. Evolution: Darwin
+A. Typewriter: Remington
+A. Dynamite: Dunlop
+A. Aeroplane: Harway
+Q. Who invented the ball point pen?
+C. Lazlo Biro
+A. Waterman
+A. Oscar
+A. Wilson
+Q. Blaze Pascal is associated with?
+C. Calculating machine
+A. Computer
+A. Cinema
+A. None of these
+Q. Wright Brothers are regarded inventors of the?
+C. Aeroplane
+A. Balloon
+A. Bicycle
+A. None of these
+Q. Which of the following pairs is incorrect?
+C. Faraday: Diffusion of gases
+A. Roentgen: X-ray
+A. Newton: Law of gravitation
+A. Pasteur: Bacteriology
+Q. Philology is the?
+C. Study of languages
+A. Study of bones
+A. Study of muscles
+A. Study of architecture
+Q. Anatomy is the branch of science which deals with?
+C. Structure of animals and plants
+A. Functioning of body organs
+A. Animal behavior
+A. Cells and tissues
+Q. Study of earthquakes is known as?
+C. Seismology
+A. Ecology
+A. Numismatics
+A. None of these
+Q. Ecology deals with?
+C. Relation between Organisms and their environment
+A. Birds
+A. Cell formation
+A. Tissues
+Q. Meteorology is the science of?
+C. Weather
+A. Meteors
+A. Metals
+A. Earthquakes
+Q. Oncology is the study of?
+C. Cancer
+A. Birds
+A. Mammals
+A. Soil
+Q. Study of life in outer space is known as?
+C. Exobiology
+A. Endobiology
+A. Enterobiology
+A. Neobiology
+Q. Numismatics is the study of?
+C. Coins
+A. Numbers
+A. Stamps
+A. Space
+Q. Eugenics is the study of?
+C. Altering humans beings by changing their genetic components
+A. People of European origin
+A. Different races of mankind
+A. Genetics of plants
+Q. Ornithology is the?
+C. Study of birds
+A. Study of bones
+A. Study of smells
+A. None of these
+Q. Who invented the Doctor’s thermometer?
+C. Fahrenheit
+A. Edison
+A. Galileo
+A. None of these
+Q. The velocity of light was first measured by?
+C. Romer
+A. Einstein
+A. Newton
+A. Galileo
+Q. Who proposed the chemical evolution of life?
+C. Oparin
+A. Darwin
+A. Lammarck
+A. Haechel
+Q. The telephone was invented by?
+C. Alexander Graham Bell
+A. John Logie Baird
+A. Thomas Elva Edison
+A. James Watt
+Q. Who among the following evolved the concept of relationship between mass and energy?
+C. Einstein
+A. Planck
+A. Dalton
+A. Rutherford
+Q. Which of the following statements describes one way that solids are different from liquids?
+C. Solids have a definite shape and liquids do not.
+A. Solids have weight and liquids do not.
+A. Solids take up space and liquids do not.
+A. Solids have a definite volume and liquids do not.
+Q. Why are green plants important to animals?
+C. They produce food and give off oxygen.
+A. They consume food and give off carbon dioxide.
+A. They produce food and give off carbon dioxide.
+A. They consume food and give off oxygen.
+Q. Robert Koch worked on?
+C. Tuberculosis
+A. Cholera
+A. Malaria
+A. Diabetes
+Q. Who discovered Uranus?
+C. Herschel
+A. Ganleo
+A. Copernicus
+A. None of these
+Q. Who among the following is associated with the invention of computers?
+C. Babbage
+A. Edison
+A. Mac Millen
+A. Rangabhashyam
+END_FILE

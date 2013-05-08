@@ -40,39 +40,36 @@ public final class R {
     }
     public static final class id {
         public static final int AppTitle=0x7f080000;
-        public static final int Finish_Button=0x7f08000e;
-        public static final int Finish_Quiz_Text=0x7f080002;
-        public static final int Results=0x7f080011;
-        public static final int Title=0x7f08000d;
-        public static final int action_settings=0x7f08001b;
-        public static final int answer1=0x7f080005;
-        public static final int answer2=0x7f080006;
-        public static final int answer3=0x7f080007;
-        public static final int answer4=0x7f080008;
-        public static final int answer_button=0x7f08000b;
-        public static final int answergroup=0x7f080004;
-        public static final int back_button=0x7f08000a;
-        public static final int button1=0x7f08001a;
-        public static final int correct_answers=0x7f080017;
-        public static final int correct_answers_title=0x7f080016;
-        public static final int navigationLayout=0x7f080009;
-        public static final int next_button=0x7f08000c;
-        public static final int number_of_questions=0x7f080013;
-        public static final int number_of_questions_title=0x7f080012;
-        public static final int ok=0x7f080010;
-        public static final int percent=0x7f080019;
-        public static final int percent_title=0x7f080018;
-        public static final int question=0x7f080003;
-        public static final int question_answer_layout=0x7f080001;
-        public static final int questions_attempted=0x7f080015;
-        public static final int questions_attempted_title=0x7f080014;
-        public static final int text=0x7f08000f;
+        public static final int Finish_Button=0x7f080006;
+        public static final int Finish_Quiz_Text=0x7f080007;
+        public static final int Results=0x7f08000f;
+        public static final int Title=0x7f080005;
+        public static final int action_settings=0x7f080019;
+        public static final int answer1=0x7f08000b;
+        public static final int answer2=0x7f08000c;
+        public static final int answer3=0x7f08000d;
+        public static final int answer4=0x7f08000e;
+        public static final int answer_button=0x7f080003;
+        public static final int answergroup=0x7f08000a;
+        public static final int back_button=0x7f080002;
+        public static final int correct_answers=0x7f080015;
+        public static final int correct_answers_title=0x7f080014;
+        public static final int navigationLayout=0x7f080001;
+        public static final int newQuizBtn=0x7f080018;
+        public static final int next_button=0x7f080004;
+        public static final int number_of_questions=0x7f080011;
+        public static final int number_of_questions_title=0x7f080010;
+        public static final int percent=0x7f080017;
+        public static final int percent_title=0x7f080016;
+        public static final int question=0x7f080009;
+        public static final int question_answer_layout=0x7f080008;
+        public static final int questions_attempted=0x7f080013;
+        public static final int questions_attempted_title=0x7f080012;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int display_quiz=0x7f030001;
-        public static final int question_result=0x7f030002;
-        public static final int results=0x7f030003;
+        public static final int results=0x7f030002;
     }
     public static final class menu {
         public static final int main=0x7f070000;
