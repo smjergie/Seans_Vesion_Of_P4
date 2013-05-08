@@ -8,6 +8,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.content.res.AssetManager;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.Gravity;
@@ -79,6 +80,7 @@ public class displayQuiz extends Activity{
 		updateQuestion();		
 		resetRadios();
 		backBtn.setEnabled(false);
+		backBtn.setBackgroundResource(R.drawable.back_button_disabled);
 		answerBtn.setEnabled(false);
 	}
 
@@ -196,6 +198,24 @@ public class displayQuiz extends Activity{
 			userAnswer.setChecked(true);
 			answerBtn.setEnabled(false);
 		}
+		if(currentQ == 0){
+			//disable skip btn, end of question list
+			
+			backBtn.setEnabled(false);
+			backBtn.setBackgroundResource(R.drawable.back_button_disabled);
+		}else {
+			backBtn.setEnabled(true);
+			backBtn.setBackgroundResource(R.drawable.back_button);
+		}
+		if(currentQ == questionCount -1){
+			//disable skip btn, end of question list
+			
+			skipBtn.setEnabled(false);
+			skipBtn.setBackgroundResource(R.drawable.forward_button_disabled);
+		}else {
+			skipBtn.setEnabled(true);
+			skipBtn.setBackgroundResource(R.drawable.forward_button);
+		}
 	}
 
 	private int getSelectedAnsIndex() {
@@ -246,6 +266,7 @@ public class displayQuiz extends Activity{
 		if(currentQ == 0){
 			//enable backBtn
 			backBtn.setEnabled(true);
+			backBtn.setBackgroundResource(R.drawable.back_button_disabled);
 		}
 		//Setup Q uless at end
 		currentQ++;		
@@ -253,7 +274,9 @@ public class displayQuiz extends Activity{
 
 		if(currentQ == questionCount -1){
 			//disable skip btn, end of question list
+			
 			skipBtn.setEnabled(false);
+			skipBtn.setBackgroundResource(R.drawable.forward_button_disabled);
 		}
 	}
 
@@ -262,8 +285,8 @@ public class displayQuiz extends Activity{
 		//Show next Q, save ans
 		int userAns = getSelectedAnsIndex(); 
 		questions[currentQ].setUserAnswer(userAns);
-		resetRadios();
-		answerBtn.setEnabled(false);
+		//resetRadios();
+		//answerBtn.setEnabled(false);
 
 		if( userAns == questions[currentQ].getCorrectAnswer()){
 			//user answered correctly
@@ -276,6 +299,7 @@ public class displayQuiz extends Activity{
 			correctTxt.setText("Correct!");
 			correctTxt.setGravity(Gravity.CENTER_HORIZONTAL);
 			correctTxt.setTextSize(40);
+			correctTxt.setTextColor(Color.parseColor("#2ECC71"));
 			dialog.setView(correctTxt);
 			
 			dialog.setPositiveButton("OK", null);
@@ -292,6 +316,7 @@ public class displayQuiz extends Activity{
 			incorrectTxt.setText("Incorrect!");
 			incorrectTxt.setGravity(Gravity.CENTER_HORIZONTAL);
 			incorrectTxt.setTextSize(40);
+			incorrectTxt.setTextColor(Color.parseColor("#E74C3C"));
 			dialog.setView(incorrectTxt);
 			
 			dialog.setPositiveButton("OK", null);
@@ -319,8 +344,11 @@ public class displayQuiz extends Activity{
 		}
 
 		//Setup Q uless at end
-		currentQ++;		
-		updateQuestion();
+		
+		//Delete the bellow comment to enable question change when you answer a question
+		
+		/*currentQ++;		
+		updateQuestion();*/
 
 	}
 

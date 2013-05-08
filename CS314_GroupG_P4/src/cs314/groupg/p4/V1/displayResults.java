@@ -74,5 +74,9 @@ public class displayResults extends Activity{
 		Intent intent = new Intent(this, displayQuiz.class);
 		intent.putExtra(EXTRA_Q_COUNT, countQuestions);
 		startActivity(intent);
+		finish();
+	}
+	public void Quit(View view) {
+		finish();
 	}
 }

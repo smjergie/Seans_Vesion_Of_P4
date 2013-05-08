@@ -35,8 +35,11 @@ public final class R {
         public static final int rightgreen=0x7f02000b;
         public static final int round_button=0x7f02000c;
         public static final int round_button_pressed=0x7f02000d;
-        public static final int round_button_unpressed=0x7f02000e;
-        public static final int science=0x7f02000f;
+        public static final int round_button_pressed_red=0x7f02000e;
+        public static final int round_button_red=0x7f02000f;
+        public static final int round_button_unpressed=0x7f020010;
+        public static final int round_button_unpressed_red=0x7f020011;
+        public static final int science=0x7f020012;
     }
     public static final class id {
         public static final int AppTitle=0x7f080000;
@@ -44,7 +47,7 @@ public final class R {
         public static final int Finish_Quiz_Text=0x7f080007;
         public static final int Results=0x7f08000f;
         public static final int Title=0x7f080005;
-        public static final int action_settings=0x7f080019;
+        public static final int action_settings=0x7f08001a;
         public static final int answer1=0x7f08000b;
         public static final int answer2=0x7f08000c;
         public static final int answer3=0x7f08000d;
@@ -65,6 +68,7 @@ public final class R {
         public static final int question_answer_layout=0x7f080008;
         public static final int questions_attempted=0x7f080013;
         public static final int questions_attempted_title=0x7f080012;
+        public static final int quitQuizBtn=0x7f080019;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
