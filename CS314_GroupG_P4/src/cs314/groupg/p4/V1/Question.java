@@ -8,6 +8,7 @@ public class Question {
 	private String _stub;
 	private String[] _answers;
 	private int _userAns;
+	private int _correctAns;
 	private boolean _isClean;
 	
 	/** Constructors */
@@ -40,7 +41,7 @@ public class Question {
 	
 	public void setClean(boolean isClean) {
 		_isClean = isClean;
-	}
+	}	
 
 	/** Getters */
 	public String getStub(){
@@ -53,6 +54,10 @@ public class Question {
 	
 	public int getUserAnswer(){
 		return _userAns;
+	}
+	
+	public int getCorrectAnswer(){
+		return _correctAns;
 	}
 	
 	public boolean getClean(){
@@ -95,7 +100,8 @@ public class Question {
 		//add _correct to remaining empty spot
 		for(int i = 0; i < 4; i++){
 			if(answers[i] == null){
-				answers[i] = "(c)" + c; //mark correct ans with a leading '(c)'
+				answers[i] = c;
+				_correctAns = i;
 				break;
 			}
 		}

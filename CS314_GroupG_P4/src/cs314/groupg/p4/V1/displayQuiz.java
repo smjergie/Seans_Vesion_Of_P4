@@ -28,7 +28,6 @@ public class displayQuiz extends Activity{
 	private int[] questionStatus;
 	private int questionCount;
 	private int currentQ;
-	private int correctIndex;
 	private TextView stub;
 	private RadioGroup answerGroup;
 	private RadioButton radio0;
@@ -77,7 +76,7 @@ public class displayQuiz extends Activity{
 
 		//Setup Initial Question
 		currentQ = 0; 
-		correctIndex = updateQuestion();		
+		updateQuestion();		
 		resetRadios();
 		backBtn.setEnabled(false);
 		answerBtn.setEnabled(false);
@@ -180,24 +179,9 @@ public class displayQuiz extends Activity{
 	 * Modifies answers[] to no longer have the leading "(c)" in front of correct answer
 	 * @return Radio index of correct answer
 	 */
-	private int updateQuestion() {
-		int correctIndex = -1;
+	private void updateQuestion() {
 		String[] answers = questions[currentQ].getAnswers();
 		stub.setText((currentQ + 1) + ") " + questions[currentQ].getStub());
-
-		if(answers[0].startsWith("(c)")){
-			correctIndex = 0;
-			answers[0] = answers[0].substring(3);
-		} else if(answers[1].startsWith("(c)")){
-			correctIndex = 1;
-			answers[1] = answers[1].substring(3);
-		} else if(answers[2].startsWith("(c)")){
-			correctIndex = 2;
-			answers[2] = answers[2].substring(3);
-		} else if(answers[3].startsWith("(c)")){
-			correctIndex = 3;
-			answers[3] = answers[3].substring(3);
-		}
 
 		radio0.setText(answers[0]);
 		radio1.setText(answers[1]);
@@ -212,8 +196,6 @@ public class displayQuiz extends Activity{
 			userAnswer.setChecked(true);
 			answerBtn.setEnabled(false);
 		}
-
-		return correctIndex;
 	}
 
 	private int getSelectedAnsIndex() {
@@ -249,7 +231,7 @@ public class displayQuiz extends Activity{
 
 		//Setup Q unless at end
 		currentQ--;		
-		correctIndex = updateQuestion();
+		updateQuestion();
 
 		if(currentQ == 0){
 			//enable backBtn
@@ -267,7 +249,7 @@ public class displayQuiz extends Activity{
 		}
 		//Setup Q uless at end
 		currentQ++;		
-		correctIndex = updateQuestion();
+		updateQuestion();
 
 		if(currentQ == questionCount -1){
 			//disable skip btn, end of question list
@@ -283,7 +265,7 @@ public class displayQuiz extends Activity{
 		resetRadios();
 		answerBtn.setEnabled(false);
 
-		if( userAns == correctIndex){
+		if( userAns == questions[currentQ].getCorrectAnswer()){
 			//user answered correctly
 			questionStatus[currentQ] = 1;
 			
@@ -338,7 +320,7 @@ public class displayQuiz extends Activity{
 
 		//Setup Q uless at end
 		currentQ++;		
-		correctIndex = updateQuestion();
+		updateQuestion();
 
 	}
 
